@@ -1,0 +1,57 @@
+.home-welcome-section {
+  text-align: center;
+  margin-top: 10%;
+}
+
+h1,
+.home-tagline {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #5cb297;
+}
+
+.home-description {
+  font-size: 1.2em;
+}
+
+.home-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.home-welcome-section {
+  padding: 20px;
+}
+
+.home-book-now-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #5cb297;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.home-book-now-btn a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.home-book-now-btn:hover {
+  background-color: #255e4c;
+}
+
+.home-book-now-btn a:focus {
+  outline: none;
+}

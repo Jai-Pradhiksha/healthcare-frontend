@@ -1,0 +1,89 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  background-color: #111714;
+  padding: 10px;
+  height: 85px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+div {
+  font-family: "Figtree", sans-serif;
+  font-size: large;
+}
+
+.navbar-logo-container {
+  margin-left: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: auto;
+  height: 50px;
+}
+
+.navbar-app-name {
+  color: #7fcfb6;
+  margin-left: 20px;
+}
+
+.navbar-search-container {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.navbar-right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+}
+
+.navbar-search-box {
+  width: 400px;
+  height: 42px;
+  font-size: 16px;
+  padding: 0 15px;
+  border: 2px solid #28a745;
+  border-radius: 50px;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+}
+
+.navbar-search-box:hover {
+  box-shadow: 0 0 10px #7fcfb6;
+}
+
+.navbar-search-box:focus {
+  box-shadow: 0 0 10px #7fcfb6;
+  border: 2px solid #7fcfb6;
+}
+
+.navbar-search-button {
+  border-radius: 50px;
+}
+
+.navbar-nav-link {
+  color: #7fcfb6;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar-nav-link:hover {
+  transform: scale(1.15);
+  color: whitesmoke;
+}
+
+.navbar-link:focus {
+  outline: none;
+}
+
+.navbar-link:active {
+  color: whitesmoke;
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.confirmation-container {
+  background: #f8f9fa;
+}
+
+.confirmation-card {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #5cb297;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-card h2 {
+  color: #5cb297;
+  margin-bottom: 1.5rem;
+}
+
+.confirmation-details {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+}
+
+.confirmation-card h5 {
+  padding-bottom: 20px;
+}
+
+.confirmation-details p {
+  margin: 0.5rem 0;
+}
+
+.ticket-card::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  right: 20px;
+  height: 20px;
+  background: #5cb297;
+  border-radius: 12px 12px 0 0;
+}
+
+.ticket-card::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  right: 20px;
+  height: 20px;
+  background: #5cb297;
+  border-radius: 0 0 12px 12px;
+}

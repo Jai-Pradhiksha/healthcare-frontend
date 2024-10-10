@@ -1,0 +1,48 @@
+.appointment-container {
+  background-color: #f7f7f7;
+  padding-top: 80px;
+}
+
+.appointment-form {
+  background-color: #fff;
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-heading {
+  color: #7fcfb6;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+.input-group-text {
+  background-color: #7fcfb6;
+  color: white;
+  border: none;
+}
+
+.form-control {
+  border-color: #7fcfb6;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #7fcfb6;
+  box-shadow: 0 0 5px rgba(127, 207, 182, 0.5);
+}
+
+.submit-btn {
+  background-color: #7fcfb6;
+  border-color: #7fcfb6;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #6ab79c;
+  border-color: #6ab79c;
+  color: white;
+}

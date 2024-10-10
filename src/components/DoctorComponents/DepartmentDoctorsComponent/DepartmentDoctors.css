@@ -1,0 +1,75 @@
+.docts-tagline-container {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5cb297; 
+  }
+  .docts-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.docts-doctor-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.docts-doctor-card:hover {
+    background-color: #f0f0f0;
+}
+
+  .docts-doctor-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+  }
+  
+  .docts-doctor-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  
+  .docts-doctor-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .docts-doctor-details {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .docts-book-button {
+    background-color: transparent;
+    color: #5cb297;
+    padding: 10px 20px;
+    border: 2px solid #5cb297; 
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 5%;
+}
+  
+  .docts-book-button:hover {
+    background-color: #5cb297;
+    color: #fff;
+  }
+  
